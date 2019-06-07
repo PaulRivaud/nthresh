@@ -2,25 +2,25 @@
 Multilevel thresholding of a 1-dimensional array using Otsu's method. Implemented for Python3.
 
 # Install
-'''
+```
 pip install git+https://github.com/PaulRivaud/nthresh.git
-'''
+```
 
 # Use
 Generate a vector following a bimodal distribution:
-'''python
+```python
 import numpy as np
 
 X = np.concatenate((np.random.normal(0, 1, int(0.3 * 1000)),
                     np.random.normal(5, 1, int(0.7 * 1000))))
-'''
+```
 
 Get the optimum threshold.
-'''python
+```python
 import nthresh
 
 threshold = nthresh.nthresh(X, n_classes=2, bins=10, n_jobs=1)
-'''
+```
 
     X : ndarray
         1-dimensional Numpy array
