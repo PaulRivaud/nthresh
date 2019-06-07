@@ -1,12 +1,12 @@
-# nthres
+# nthresh
 Multilevel thresholding of a 1-dimensional array using Otsu's method. Implemented for Python3.
 
-# Install
+## Install
 ```
 pip install git+https://github.com/PaulRivaud/nthresh.git
 ```
 
-# Use
+## Use
 Generate a vector following a bimodal distribution:
 ```python
 import numpy as np
