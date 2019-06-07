@@ -25,9 +25,9 @@ threshold = nthresh.nthresh(X, n_classes=2, bins=10, n_jobs=1)
 Description of the parameters used:
 ```
 X : ndarray
-    1-dimensional Numpy array
+    A 1-dimensional Numpy array
 n_classes : int
-    number of expected classes. n_classes-1 threshold values will be returned in a list
+    Mumber of expected classes. n_classes-1 threshold values will be returned in a list
 bins : int
     Number of bins to use when binning the space of X
 n_jobs : int
