@@ -1,5 +1,5 @@
 # nthresh
-Multilevel thresholding of a 1-dimensional array using Otsu's method. Implemented for Python3.
+Multilevel thresholding of a 1-dimensional array using Otsu's method. Implemented in Python3.
 
 ## Install
 ```
