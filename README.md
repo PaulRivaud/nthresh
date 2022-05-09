@@ -27,7 +27,7 @@ Description of the parameters used:
 X : ndarray
     A 1-dimensional Numpy array
 n_classes : int
-    Mumber of expected classes. n_classes-1 threshold values will be returned in a list
+    Number of expected classes. n_classes-1 threshold values will be returned in a list
 bins : int
     Number of bins to use when binning the space of X
 n_jobs : int
